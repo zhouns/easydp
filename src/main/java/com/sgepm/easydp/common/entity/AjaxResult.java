@@ -8,9 +8,9 @@ public class AjaxResult {
 	
 	public AjaxResult() {}
 
-	public AjaxResult(boolean status, String message) {
+	public AjaxResult(boolean status, String message1) {
 		this.status = status;
-		this.message = message;
+		this.message = message1;
 	}
 
 	public boolean isStatus() {
