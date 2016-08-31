@@ -1,0 +1,11 @@
+package ${rootpackage}.${moudel}.dao.impl;
+
+import org.springframework.stereotype.Repository;
+import ${rootpackage}.common.persistence.IBaseDaoImpl;
+import ${rootpackage}.${moudel}.dao.${entity}Dao;
+import ${rootpackage}.${moudel}.entity.${entity};
+
+@Repository("${lowerCaseEntity}DaoImpl")
+public class ${entity}DaoImpl extends IBaseDaoImpl<${entity}> implements ${entity}Dao {
+
+}

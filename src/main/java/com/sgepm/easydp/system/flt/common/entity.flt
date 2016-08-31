@@ -1,0 +1,24 @@
+package ${rootpackage}.${moudel}.entity;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "${tbName}", schema = "${schema}")
+public class ${entity} implements java.io.Serializable {
+	
+${protertys}
+	
+	public ${entity}() {
+		super();
+	}
+	
+${constructor_key}
+	
+${constructor_full}
+    
+${getterAndSetter}
+}
+

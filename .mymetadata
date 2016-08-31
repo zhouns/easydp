@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="easydp-master"
+  id="myeclipse.1438242470096"
+  context-root="/easydp"
+  j2ee-spec="1.7"
+  archive="easydp-master.war">
+  <attributes>
+    <attribute name="webrootdir" value="src/main/webapp" />
+  </attributes>
+</project-module>
+

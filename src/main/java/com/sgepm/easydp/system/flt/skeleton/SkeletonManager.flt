@@ -1,0 +1,8 @@
+package ${rootpackage}.${moudel}.manager;
+
+import ${rootpackage}.common.manager.IBaseManager;
+import ${rootpackage}.${moudel}.entity.${entity};
+
+public interface ${entity}Manager extends IBaseManager<${entity}> {
+
+}

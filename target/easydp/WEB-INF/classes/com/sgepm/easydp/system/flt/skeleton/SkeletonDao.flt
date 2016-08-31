@@ -1,0 +1,8 @@
+package ${rootpackage}.${moudel}.dao;
+
+import ${rootpackage}.common.persistence.IBaseDao;
+import ${rootpackage}.${moudel}.entity.${entity};
+
+public interface ${entity}Dao extends IBaseDao<${entity}> {
+
+}

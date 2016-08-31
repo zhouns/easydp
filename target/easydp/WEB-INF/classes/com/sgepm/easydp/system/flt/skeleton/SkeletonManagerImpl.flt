@@ -1,0 +1,22 @@
+package ${rootpackage}.${moudel}.manager.impl;
+
+import javax.annotation.Resource;
+import org.springframework.stereotype.Service;
+import ${rootpackage}.common.manager.IBaseManagerImpl;
+import ${rootpackage}.${moudel}.dao.${entity}Dao;
+import ${rootpackage}.${moudel}.entity.${entity};
+import ${rootpackage}.${moudel}.manager.${entity}Manager;
+
+@Service("${lowerCaseEntity}ManagerImpl")
+public class ${entity}ManagerImpl extends IBaseManagerImpl<${entity}> implements ${entity}Manager {
+
+	@Resource(name = "${lowerCaseEntity}DaoImpl")
+	public void setDao(${entity}Dao dao) {
+		this.dao = dao;
+	}
+	
+	public ${entity}Dao getDao() {
+		return (${entity}Dao) super.getDao();
+	}
+	
+}
